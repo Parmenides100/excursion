@@ -1,0 +1,85 @@
+/* Reset default margin and padding */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header a {
+    display: block;
+    margin-top: 10px;
+    color: aquamarine;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: grey;
+}
+
+/* Video styles */
+video {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    position: static;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: grey;
+    text-align: right;
+}
+
+/* Video and Image container styles */
+.video-container,
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
